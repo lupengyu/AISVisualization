@@ -1,0 +1,15 @@
+.xk-select__container {
+    width: 100%;
+}
+
+.xk-select__label {
+    margin: 0 20px;
+}
+
+.xk-select .ant-select, .xk-select .ant-select-selection {
+    flex: 1 1 auto;
+}
+
+.xk-select {
+    padding-top: 40%;
+}

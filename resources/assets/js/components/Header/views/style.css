@@ -1,0 +1,23 @@
+.xk-header .am-navbar-title {
+    flex: 6 !important;
+}
+
+.xk-header .am-tabs-tab-bar-wrap {
+    height: 100%;
+}
+
+.xk-header .am-tabs-content-wrap {
+    display: none !important;
+}
+
+.xk-header .am-tabs-default-bar-tab {
+    height: 102% !important;
+}
+
+.xk-header a {
+    color: #000;
+}
+
+.xk-header .am-tabs-default-bar-tab-active a {
+    color: #108ee9;
+}

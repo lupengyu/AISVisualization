@@ -1,0 +1,4 @@
+export const SET_CLASSES = 'CLASSES/SET_CLASSES';
+export const ADD_CLASSES = 'CLASSES/ADD_CLASSES';
+export const SET_START = 'CLASSES/SET_START';
+export const SET_INDEX = 'CLASSES/SET_INDEX';

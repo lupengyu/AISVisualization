@@ -1,0 +1,2 @@
+export const SET_USERINFO = 'USERINFO/SET';
+export const SET_FAILURE = 'USERINFO/FAIL';

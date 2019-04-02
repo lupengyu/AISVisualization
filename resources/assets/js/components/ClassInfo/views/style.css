@@ -1,0 +1,20 @@
+.xk-classinfo__basic .am-flexbox .am-flexbox-item {
+    margin-left: 0;
+}
+
+.xk-classinfo__tag {
+    color: #888;
+    margin-right: 10px;
+}
+
+.xk-classinfo__item {
+    margin-bottom: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.xk-classinfo__subinfo .xk-classinfo__item {
+    margin-bottom: 12px;
+}

@@ -1,0 +1,43 @@
+.xk-classes .am-activity-indicator {
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.xk-class .xk-class__basic {
+    flex: 2;
+    overflow: hidden;
+}
+
+.xk-class__basic .xk-class__type {
+    flex: 3 !important;
+    text-align: right;
+}
+
+.xk-class .xk-class__basic h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.xk-class .xk-class__advance {
+    flex: 3;
+    overflow: hidden;
+}
+
+.xk-class__badge {
+    margin-left: 12px;
+    padding: 0 3px;
+    border-radius: 2px;
+}
+
+.xk-class__badge.red {
+    background-color: #e51c23;
+}
+
+.xk-class__badge.pink {
+    background-color: #ff4081;
+}
+
+.xk-class__more {
+    float: right;
+}

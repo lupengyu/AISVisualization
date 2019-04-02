@@ -1,0 +1,26 @@
+.xk-mine .xk-mine__info.am-card, .xk-mine .xk-mine__info .am-card-body {
+    padding-bottom: 0;
+}
+
+.xk-info .am-activity-indicator.am-activity-indicator-toast {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.xk-info .xk-info__addbtn, .xk-edit .xk-edit__submit {
+    bottom: 0;
+    left: 0;
+    position: fixed !important;
+    right: 0;
+    z-index: 1;
+}
+
+.xk-info .xk-info__addbtn a,
+.xk-info a.xk-info__addbtn,
+.xk-edit .xk-edit__submit {
+    border-radius: 0 !important;
+}
+
+.xk-edit .xk-edit__item .am-flexbox-item {
+    margin: 0;
+    width: 100%;
+}

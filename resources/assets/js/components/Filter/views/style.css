@@ -1,0 +1,32 @@
+.xk-filter .am-menu {
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: 90;
+}
+
+.xk-filter .am-flexbox-item {
+    line-height: 2.6;
+    text-align: center;
+}
+
+.xk-filter {
+    background-color: #fff;
+}
+
+.xk-filter .xk-filter__longitem.am-flexbox-item {
+    flex: 2;
+}
+
+.xk-filter .xk-filter__item.is-active,
+.xk-filter .xk-filter__longitem.is-active {
+    color: #108ee9;
+}
+
+.xk-filter__mask {
+    background-color: rgba(0, 0, 0, .4);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 89;
+}
