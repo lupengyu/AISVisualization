@@ -22,7 +22,7 @@ class IndexController extends Controller {
             while(!feof($data)) {
                 $str = fgets($data);
                 $datas = explode(",",$str);
-                $point = ['lng'=>$datas[0], 'lat'=>$datas[1], 'count'=>explode("\r\n",$datas[2])[0]];
+                $point = ['lng'=>$datas[0]+0.0105, 'lat'=>$datas[1]+0.0035, 'count'=>explode("\r\n",$datas[2])[0]];
                 array_push($points, $point);
             }
             fclose($data);
