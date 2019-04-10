@@ -29,20 +29,20 @@
             map.centerAndZoom(point, 12);
             map.enableScrollWheelZoom();
 
-            for (var i = 0; i < tracklist.length; i++) {
+            for (var i = 1; i < tracklist.length; i++) {
                 var list = new Array(); 
                 for (var j = 0; j < tracklist[i].length; j++) {
                     list[j] = new BMap.Point(tracklist[i][j].lng, tracklist[i][j].lat)
                 }
-                // console.log(list);
                 var polyline = new BMap.Polyline(list, {strokeColor:"red", strokeWeight:0.5, strokeOpacity:0.5});
                 map.addOverlay(polyline);//增加折线
             }
 
-            var polyline = new BMap.Polyline([
-                new BMap.Point(118.04939, 24.444706),
-                new BMap.Point(118.074398, 24.41378)
-            ], {strokeColor:"blue", strokeWeight:5, strokeOpacity:0.5});   //创建折线
+            var list = new Array(); 
+            for (var j = 0; j < tracklist[0].length; j++) {
+                list[j] = new BMap.Point(tracklist[0][j].lng, tracklist[0][j].lat)
+            }
+            var polyline = new BMap.Polyline(list, {strokeColor:"blue", strokeWeight:5, strokeOpacity:0.5});
             map.addOverlay(polyline);//增加折线
         </script>
     </body>

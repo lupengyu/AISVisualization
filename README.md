@@ -12,5 +12,5 @@ example: /heatmap/danger1.txt&danger2.txt&danger3.txt&danger4.txt&danger5.txt/1.
 ## doorline  
 url: /doorline/{file}  
 example: /doorline/doorline2.txt  
-数据格式: lng,lat-lng,lat...\r\n  
+数据格式: lng,lat-lng,lat...\r\n, 其中第一行为门线数据  
 数据存储: \public\data  
