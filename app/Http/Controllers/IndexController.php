@@ -2,17 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\Input;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Http\Request;
-use Redirect;
-use Mail;
-use PHPExcel;
-use PHPExcel_IOFactory;
-use PHPExcel_Cell;
-use Excel;
-use GuzzleHttp\Client;
-
 class IndexController extends Controller {
     public function heatmap($file = '', $radius = 6, $max = 100) {
         $files = explode("&",$file);
