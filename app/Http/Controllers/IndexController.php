@@ -79,4 +79,28 @@ class IndexController extends Controller {
             ]
         );
     }
+
+    public function pointlist($file = '') {
+        $files = explode("&",$file);
+        $tracklist = [];
+        for ($i = 0; $i < sizeof($files); $i += 1) {
+            $data = fopen('data/'.$files[$i], 'r');
+            $str = fgets($data);
+            $positions = explode("-",$str);
+            $positions[sizeof($positions) - 1] = explode("\r\n",$positions[sizeof($positions) - 1])[0];
+            $points = [];
+            for ($j = 0; $j < sizeof($positions); $j ++) {
+                $pre = explode(",",$positions[$j]);
+                $point = ['lng'=>$pre[0]+0.0112, 'lat'=>$pre[1]+0.0035];
+                array_push($points, $point);
+            }
+            fclose($data);
+            array_push($tracklist, $points);
+        }
+        return view('ais.pointlist',
+            [
+                'tracklist' => json_encode($tracklist),
+            ]
+        );
+    }
 }
