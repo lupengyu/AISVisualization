@@ -46,7 +46,7 @@
                 var list = new Array(); 
                 for (var j = 0; j < tracklist[i].length; j++) {
                     list[j] = new BMap.Point(tracklist[i][j].lng, tracklist[i][j].lat)
-                    var label = new BMap.Label(j+1,{offset:new BMap.Size(20,-10)});
+                    var label = new BMap.Label((i+1) + "-" + (j+1),{offset:new BMap.Size(20,-10)});
                     addMarker(list[j],label);
                 }
                 var polyline = new BMap.Polyline(list, {strokeColor:"red", strokeWeight:2, strokeOpacity:0.5});

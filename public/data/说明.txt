@@ -1,0 +1,6 @@
+http://localhost/trajectory/trajectory2.txt 原始航迹
+http://localhost/trajectory/clean_repair-trajectory1.txt 清洗补足后航迹
+http://localhost/trajectory/segmentation1.txt 原始分段航迹
+http://localhost/trajectory/clean_repair1.txt 清洗补足后分段航迹
+http://localhost/pointlist/segmentation1.txt 原始点
+http://localhost/pointlist/clean_repair1.txt 清洗补足后点航迹
