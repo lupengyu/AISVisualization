@@ -22,3 +22,11 @@ example: /trajectory/trajectory1.txt
 example: /trajectory/trajectory1.txt&trajectory2.txt  
 数据格式: lng,lat-lng,lat...  
 数据存储: \public\data  
+
+## pointlist 船舶航迹点阵可视化  
+url: /pointlist/{file}  
+example: /pointlist/trajectory1.txt  
+支持多文件输入  
+example: /pointlist/trajectory1.txt&trajectory2.txt  
+数据格式: lng,lat-lng,lat...  
+数据存储: \public\data  
